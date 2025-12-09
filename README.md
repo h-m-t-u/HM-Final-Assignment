@@ -1,10 +1,10 @@
-# Credit Card Fraud Detection Example
+# The Refining of my Models for the Final Project Kaggle Competition
 
-This repository is an example template that demonstrates how to structure a machine learning project for reproducibility. It includes a minimal end-to-end workflow for detecting credit card fraud using scikit‑learn.
+This repository is all mine. 
 
 ## Purpose
 
-The layout of this project mirrors the recommended directory organization shown in the assignment instructions. It can be used as a starting point for your own work or as a reference when showcasing your skills to potential employers. All code is well documented and grouped by task so you can easily build upon it.
+The layout of this project is the recommended directory organization shown in the assignment instructions. It is a reference. 
 
 ## Project layout
 
@@ -36,19 +36,3 @@ The layout of this project mirrors the recommended directory organization shown 
         └── performance.py
 ```
 
-`main.py` imports the modules inside `src/` and executes them to reproduce the analysis and results. Jupyter notebooks are provided only for prototyping and exploration—they are **not** meant to be the main entry point of the project.
-
-Some directories such as `data/external/`, `src/utils/` and `tests/` may be empty, but the folder structure is provided to illustrate how a complete project should look.
-
-## Running the example
-
-Install the dependencies and run the pipeline. You should use the versions of the dependencies as specified by the requirements file:
-
-```bash
-conda create -n credit_fraud --file requirements.txt
-conda activate credit_fraud
-python main.py
-```
-
-This will load the dataset, perform basic feature engineering, train a simple model and produce visualizations similar to those in the notebook.
-The cleaned data will be written to `data/processed/` and all plots will be displayed interactively.
